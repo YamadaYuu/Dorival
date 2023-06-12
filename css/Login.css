@@ -1,0 +1,19 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.textbox {
+    display: block;
+    padding: 10px;
+    border: 1px solid rgb(132, 208, 252);
+    border-radius: 5px;
+    font-size: 14px;
+    width: 200px;
+}
