@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> <!-- Tudo que não vai aparecer na tela, mas precisa ser referenciado -->
+    <!-- Caracteres do nosso teclado, para não ficar algo como "n%0o" em vez de "não"-->
     <meta charset="UTF-8">
+    <!-- Compatibilidade com browser --> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Adaptação do conteúdo na tela -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <!-- Chamando a classe do estilo pra nossa tela -->
     <link rel="stylesheet" href="/css/Login.css"/>
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <form>
-            <input type="text" class="textbox" placeholder="Username">
-            <button class="button">
-                Enter
-            </button>
-        </form>
-    </div>
+    <main class="main">
+        <div class="caixa">
+            <form>
+                <!-- caixa do nome do usuario -->
+                <input type="text" class="textbox" placeholder="Username">
+                <!-- botão para logar -->
+                <button class="button">Login</button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>
