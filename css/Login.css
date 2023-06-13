@@ -34,7 +34,7 @@ chave vai ser aplicado para a classe */
     padding: 10px;
     background-color: rgb(195, 240, 240);
     border: 2px solid aqua;
-    font-family: Witched;
+    font-family: american_type;
     font-size: 18px;
     border-radius: 5px;
     font-size: 14px;
@@ -61,9 +61,4 @@ chave vai ser aplicado para a classe */
     justify-content: center;
     height: 300px;
     width: 300px;
-}
-
-@font-face {
-    font-family: 'Witched';
-    src: url('font/Witched.TTF') format('ttf'),
 }
