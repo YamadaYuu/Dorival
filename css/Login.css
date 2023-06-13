@@ -1,35 +1,69 @@
-.button {
+/* A ordem dos tratores não altera o viaduto, tudo que estiver dentro da
+chave vai ser aplicado para a classe */
+
+
+.button { /*Vai mudar nosso botão*/
+    /* margem interna */
     padding: 10px 20px;
+    /* cor do fundo */
     background-color: aqua;
+    /* cor da letra */
     color: black;
+    /* fonte do escrito no botão */
+    font-family: Witched;
+    /* tamanho da fonte */
+    font-size: 22px;
+    /* sem contorno */
     border: none;
+    /* arredonda a borda */
     border-radius: 5px;
+    /* vira maozinha quando estamos com o cursor em cima */
     cursor: pointer;
+    /* margem externa, topo */
     margin-top: 5px;
 }
 
-.textbox {
+.button:hover {
+    /* muda a cor do botão quando estamos com o cursor em cima */
+    background-color: rgb(0, 172, 172);
+}
+
+.textbox { /*Vai mudar nossas caixinhas de texto*/
     display: block;
+    margin-top: 5px;
     padding: 10px;
-    border: 1px solid rgb(132, 208, 252);
+    background-color: rgb(195, 240, 240);
+    border: 2px solid aqua;
+    font-family: Witched;
+    font-size: 18px;
     border-radius: 5px;
     font-size: 14px;
     width: 200px;
 }
 
-.main {
-    height: 90vh;
+.main { /* Configurações do plano de fundo e disposição dos itens na tela */
+    height: 650px;
     align-items: center;
     justify-content: center;
     display: flex;
+    background-color: rgb(195, 240, 240);
+    /* adiciona imagem no fundo */
+    background-image: url("/img/cat.png");
+    /* repete imagem no fundo */
+    background-repeat: repeat;
+}
+.caixa { /*Vai mudar a caixa roxa e a disposição do conteudo dela*/
+    border-radius: 10px;
+    background-color: rgb(33, 85, 90);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
 }
 
-.caixa {
-    border-radius: 10px;
-    background-color: blueviolet;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 200px;
-    width: 300px;
+@font-face {
+    font-family: 'Witched';
+    src: url('font/Witched.TTF') format('ttf'),
 }
