@@ -6,7 +6,7 @@ chave vai ser aplicado para a classe */
     /* margem interna */
     padding: 10px 20px;
     /* cor do fundo */
-    background-color: aqua;
+    background-color: rgb(207, 51, 181);
     /* cor da letra */
     color: black;
     /* fonte do escrito no botão */
@@ -25,15 +25,17 @@ chave vai ser aplicado para a classe */
 
 .button:hover {
     /* muda a cor do botão quando estamos com o cursor em cima */
-    background-color: rgb(0, 172, 172);
+    background-color: rgb(153, 15, 130);
+    color: white;
 }
 
 .textbox { /*Vai mudar nossas caixinhas de texto*/
     display: block;
     margin-top: 5px;
     padding: 10px;
-    background-color: rgb(195, 240, 240);
-    border: 2px solid aqua;
+    background-color: rgb(251, 127, 255);
+    border: 2px solid black;
+    color:black;
     font-family: american_type;
     font-size: 18px;
     border-radius: 5px;
@@ -46,15 +48,16 @@ chave vai ser aplicado para a classe */
     align-items: center;
     justify-content: center;
     display: flex;
+    background-size: cover;
     background-color: rgb(195, 240, 240);
     /* adiciona imagem no fundo */
-    background-image: url("/img/cat.png");
-    /* repete imagem no fundo */
-    background-repeat: repeat;
+    background-image: url("/img/KP.jpg");
+    /* repete imagem no fundo 
+    background-repeat: repeat;*/
 }
 .caixa { /*Vai mudar a caixa roxa e a disposição do conteudo dela*/
     border-radius: 10px;
-    background-color: rgb(33, 85, 90);
+    background-color: rgba(255, 96, 184, 0.9);
     display: flex;
     flex-direction: column;
     align-items: center;

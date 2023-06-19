@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <!-- Tudo que não vai aparecer na tela, mas precisa ser referenciado. -->
+        <!-- Caracteres do nosso teclado, para não ficar algo como "n%0o" em vez de "não"-->
+        <meta charset="UTF-8">
+        <!-- Compatibilidade com browser --> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Adaptação do conteúdo na tela -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Chamando a classe do estilo pra nossa tela -->
+        <link rel="stylesheet" href="../css/Login.css"/>
+        <script src="../js/login.js"></script>
+
+        <title>Document</title>
+    </head>
+    <body>
+        <main class="main">
+            <div class="caixa">
+                <!-- Adiciona imagem na caixa de login -->
+                <img src="../img/cat.png">
+                <form>
+                    <!-- caixa do nome do usuario -->
+                    <input id="Uname" type="text" class="textbox" placeholder="Username">
+                    <!-- caixa da senha -->
+                    <input id="Pwd" type="text" class="textbox" placeholder="Password">
+                </form>
+                <!-- botão para logar -->
+                <button class="button" onclick="goHome()">Login</button>
+            </div>
+        </main>
+    </body>
+</html>
